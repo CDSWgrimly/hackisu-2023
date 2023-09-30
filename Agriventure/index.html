@@ -2,11 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agriventure</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <h1 id = "abc">Hello World</h1>
+    <input type="range" min="0" max="255" value="125" class="slider" id="redSlider" onchange="changeColor()">
+    <input type="range" min="0" max="255" value="125" class="slider" id="greenSlider" onchange="changeColor()">
+    <input type="range" min="0" max="255" value="125" class="slider" id="blueSlider" onchange="changeColor()">
     <script src="index.js""></script>
 </body>
 </html>

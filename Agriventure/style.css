@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(3, 101, 68);
+}
+
+#abc {
+    text-align: center;
+    background-color: blue;
+    border: 10px solid white;
+    /*border: 2px dotted black;*/
+}
