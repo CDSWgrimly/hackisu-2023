@@ -4,5 +4,39 @@
     box-sizing: border-box;
 }
 html{
-    font-size: 10;
+    font-size: 62.5%;
+}
+*:not(i){
+    font-family: "Poppins", sans-serif;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: greenyellow;
+    padding: 3rem 5rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+nav a{
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+nav a#logo{
+    color: black;
+    font-weight: 700;
+}
+nav ul a{
+    color: white;
+    font-weight: 600;
+}
+nav ul a:hover{
+    border-bottom: 2px solid #ffffff;
 }
