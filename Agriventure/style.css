@@ -1,42 +1,133 @@
-* {
-    padding: 0;
+/*primary divs*/
+
+#firstDiv {
+    font-size: 20px;
+}
+
+#search {
+    text-align: center;
+    padding-top: 350px;
+    background-color: #DBDCDD;
+}
+
+/*secondary divs*/
+
+
+/*lists*/
+
+#navLinksOne, #navLinksTwo {
+    list-style-type: none;
     margin: 0;
-    box-sizing: border-box;
-}
-html{
-    font-size: 62.5%;
-}
-*:not(i){
-    font-family: "Poppins", sans-serif;
-}
-header{
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    background-color: greenyellow;
-    padding: 3rem 5rem;
+    box-shadow: 0px 1.5px #DBDCDD;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+#dropdownList {
+    font-size: 50px;
+    list-style-type: none;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-nav ul{
-    list-style: none;
-    display: flex;
-    gap: 2rem;
+
+
+
+/*list elements*/
+
+#firstDiv ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-nav a{
-    font-size: 1.8rem;
+
+#navLinksTwo li {
+    margin-right: 10px;
+}
+
+#langSelect {
+    padding: 8px;
+    margin-right: 50px;
+    border: #ffffff;
+    border-radius: 15px;
+}
+
+#searchSelect {
+    border: #ffffff;
+    margin-right: 50px;
+    border-radius: 7px;
+    font-size: 50px;
+}
+
+#dropdownList li {
+    display: inline-block;
+}
+
+#firstDiv ul li a {
+    border-radius: 15px;
+    display: block;
+    padding: 8px;
     text-decoration: none;
-}
-nav a#logo{
+    text-align: center;
     color: black;
-    font-weight: 700;
 }
-nav ul a{
-    color: white;
-    font-weight: 600;
+
+#dropdownList li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color:#ffffff;
+    border-radius: 7px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(168, 165, 165);
 }
-nav ul a:hover{
-    border-bottom: 2px solid #ffffff;
+
+
+
+
+/* hover */
+
+#navLinksOne li a:hover {
+    color:black;
+    background-color: #eff0f1;
 }
+
+#navLinksTwo li a:hover {
+    color: black;
+    text-decoration: underline solid black;
+}
+
+#langSelect:hover {
+    color:black;
+    background-color: #eff0f1;
+}
+
+#dropdownList li a:hover {
+    color:black;
+    background-color: #a1c4e6;
+}
+
+
+.iconSearch {
+    background: url("iconSearch.png");
+    width: 25px;
+    height: 25px;
+}
+
+.logo {
+    display: inline-block;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/2048px-Solid_black.svg.png");
+    height: 60px;
+    width: 60px;
+}
+
+
+
