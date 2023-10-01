@@ -1,3 +1,7 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 /*primary divs*/
 
 #firstDiv {
@@ -129,5 +133,28 @@
     width: 60px;
 }
 
+.featured-visits-card-slider .card-container{
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    letter-spacing: .1px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-items: space-between;
+}
 
+.card{
+    padding: 10px;
+}
 
+.card-image{
+    height: 200px;
+    width: 295px;
+    border-radius: 20px;
+    
+}
+
+.card-body{
+    border-color: #DBDCDD;
+}
